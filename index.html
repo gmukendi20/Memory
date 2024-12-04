@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Game</h1>
+        <p id="gameStatus">Match the pairs!</p>
+        <div class="memory-board">
+            <div class="memory-card" data-framework="javascript">
+                <img class="front-face" src="images/javascript.png" alt="JavaScript">
+                <img class="back-face" src="images/back.png" alt="Memory Card Back">
+            </div>
+            <div class="memory-card" data-framework="javascript">
+                <img class="front-face" src="images/javascript.png" alt="JavaScript">
+                <img class="back-face" src="images/back.png" alt="Memory Card Back">
+            </div>
+            <div class="memory-card" data-framework="html">
+                <img class="front-face" src="images/html.png" alt="HTML">
+                <img class="back-face" src="images/back.png" alt="Memory Card Back">
+            </div>
+            <div class="memory-card" data-framework="html">
+                <img class="front-face" src="images/html.png" alt="HTML">
+                <img class="back-face" src="images/back.png" alt="Memory Card Back">
+            </div>
+            <!-- Add more pairs for larger games -->
+        </div>
+        <button id="restartButton">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
